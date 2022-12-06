@@ -1,19 +1,19 @@
 # comparative_genomics
 ## Tools to aid comparative genomic analyses
 
-### Satsuma2Circos.py
+### SatsumaBlockDisplay2Circos.py
 This script converts [Satsuma](https://satsuma.sourceforge.net/) output into a format that is compatible with [Circos](http://circos.ca/). 
 
 The Satsuma output can be generated with the following Satsuma script:
 
 `./BlockDisplaySatsuma -i satsuma_summary_file -t target_fasta_file -q query_fasta_file`
 
-Based on the BlockDisplay output, `Satsuma2Circos.py` generates two karyotype files and a links file that can be used with Circos. 
+Based on the BlockDisplay output, `BlockDisplay` generates two karyotype files and a links file that can be used with Circos. 
 
-To run the `Satsuma2Circos.py` script, specify the BlockDisplay input file:
+To run the `SatsumaBlockDisplay2Circos.py` script, specify the BlockDisplay input file:
 
-`python Satsuma2Circos.py --input block_display_input_file`
+`python SatsumaBlockDisplay2Circos.py --input block_display_input_file`
 
-Additional `Satsuma2Circos.py` arguments can be viewed by calling for help:
+Additional `SatsumaBlockDisplay2Circos.py` arguments can be viewed by calling for help:
 
-`python Satsuma2Circos.py --help`
+`python SatsumaBlockDisplay2Circos.py --help`
