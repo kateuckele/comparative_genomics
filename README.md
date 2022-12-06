@@ -8,7 +8,7 @@ The Satsuma output can be generated with the following Satsuma script:
 
 `./BlockDisplaySatsuma -i satsuma_summary_file -t target_fasta_file -q query_fasta_file`
 
-Based on the BlockDisplay output, `BlockDisplay` generates two karyotype files and a links file that can be used with Circos. 
+Based on the BlockDisplay output, `SatsumaBlockDisplay2Circos.py` generates two karyotype files and a links file that can be used with Circos. 
 
 To run the `SatsumaBlockDisplay2Circos.py` script, specify the BlockDisplay input file:
 
