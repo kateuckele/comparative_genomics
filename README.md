@@ -10,10 +10,10 @@ The Satsuma output can be generated with the following Satsuma script:
 
 Based on the BlockDisplay output, `Satsuma2Circos.py` generates two karyotype files and a links file that can be used with Circos. 
 
-To run the `Satsuma2Circos.py` script, specify the BlockDisplay input file as follow:
+To run the `Satsuma2Circos.py` script, specify the BlockDisplay input file:
 
 `python Satsuma2Circos.py --input block_display_input_file`
 
-Additional `Satsuma2Circos.py` arguments can be viewed by calling for help as follows:
+Additional `Satsuma2Circos.py` arguments can be viewed by calling for help:
 
 `python Satsuma2Circos.py --help`
